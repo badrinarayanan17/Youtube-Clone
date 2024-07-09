@@ -1,0 +1,150 @@
+.header{
+    display: flex;
+    background-color:white;
+    box-shadow:5px 5px 8px rgba(0,0,0,0.15);
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+  
+ }
+ .leftsection{
+    display: flex;
+ }
+.ytimg{
+    height: 120px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.ytbox1{
+    padding-top: 13px;
+    padding-bottom: 13px;
+    width: 525px;
+    border-width: 1px;
+    position: absolute;
+    border-color: gray;
+    border-style: solid;
+    margin-left: 59px;
+    margin-top: 40px;
+}
+.ytbox1::placeholder{
+    font-size: 16px;
+    font-family: Roboto;
+    text-indent: 10px;
+}
+.material-symbols-outlined{
+
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'height' 30,
+  'GRAD' 0,
+  'opsz' 28;
+    width: 40px;
+    height: 40px;
+    margin-top: 47px;
+    color: black;
+    margin-left: 20px;
+    opacity: 0.6;
+    cursor: pointer;
+   
+}
+.material-symbols-outlined:hover{
+    /*background-color:gray;*/
+    opacity: 1;
+}
+.find{
+    
+    border-width: 1px;
+    border-style: solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 50px;
+    position: absolute;
+    margin-left: 590px;
+    margin-top: 40px;
+    border-color: gray;
+    border-style: solid;
+    height: 21px;
+    background-color: rgba(250, 250, 250, 0.864);
+    cursor: pointer;
+    color: black;
+    
+}
+/*.find:hover{
+   
+    
+}*/
+.mic{
+    width: 24px;
+    height: 24px;
+    margin-left: 660px;
+    margin-top: 49px;
+    color: black;
+    opacity: 0.6;
+    position: absolute;
+    cursor: pointer;
+    border-radius: 30px;
+    background-color: white;
+}
+.mic:hover{
+    /*background-color:gray;*/
+    opacity: 1;
+}
+.middlesection{
+    display: flex;
+    margin-left: 30px;
+}
+.rightsection{
+    display: flex;
+    margin-left: 110px;
+}
+.video{
+    width: 34px;
+    height: 29px;
+    margin-left: 690px;
+    margin-top: 45px;
+    cursor: pointer;
+    opacity: 0.6;
+    position: absolute;
+}
+.video:hover{
+    /*background-color:gray;*/
+    opacity: 1;
+}
+.notify{
+    width: 34px;
+    height: 29px;
+    margin-left: 800px;
+    margin-top: 45px;
+    opacity: 0.6;
+    cursor: pointer;
+    position: absolute;
+}
+.notify:hover{
+    /*background-color:gray;*/
+    opacity: 1;
+}
+.ytdp{
+    width: 37px;
+    height: 37px;
+    margin-left: 860px;
+    margin-top: 40px;
+    cursor: pointer;
+    
+}
+
+.apps{
+   
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+   margin-left: 749px;
+   margin-top: 48px;
+   width: 21px;
+   height: 21px;
+   position: absolute;
+   cursor: pointer;
+}
+
